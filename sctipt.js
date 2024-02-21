@@ -1,9 +1,7 @@
-const House = {
+let box = document.querySelectorAll(".box");
+console.log(box);
 
-    area :"Yashwant nagar",
-    plot_no : 55,
-    owner : "Ashok koparkar"
+box.addEventListener("click",()=>{
+    console.log("hii");
+})
 
-};
-
-console.log(House);
