@@ -3,6 +3,7 @@
     margin: 0;
     background-color: aqua;
 }
+
 div{
     display: flex;
     justify-content: center;
@@ -12,6 +13,17 @@ h1{
     margin-top: 10px;
     text-align:center
 }
+.announcement{
+    height: 150px;
+    width: 600px;
+    background-color: green;
+    color: white;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-top: 50px;    
+
+}
+.hide{display:none;}
 .container{
     margin-top: 50px;
     height: 300px;
@@ -30,10 +42,11 @@ h1{
     border: 2px solid black;
     border-radius: 1rem;
     color: red;
+    font-size: 50px;
 
 }
-.reset{ 
 
+.reset{ 
     background-color: black;
     color: white;
     font-size: 20px;
