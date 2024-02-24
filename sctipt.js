@@ -26,7 +26,7 @@ const winPositions = [
   [2, 4, 6],
 ];
 
-// console.log("count is 9");
+
 boxes.forEach((box) => {
   box.addEventListener("click", () => {
     if (turn_x) {
