@@ -58,6 +58,7 @@ const checkWin = () => {
       if (pos1 === pos2 && pos2 == pos3) {
         msg.innerText = `"${pos1}"  Won the game`;
         msg.classList.remove("hide");
+        count = 9;
         boxes.forEach((box) => {
           box.disabled = true;
         });
