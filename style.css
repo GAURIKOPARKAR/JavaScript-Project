@@ -53,7 +53,10 @@ h1{
 .reset{ 
     background-color: black;
     color: white;
-    font-size: 20px;
+    height: 10%;
+    width: 15%;
+    border-radius: 1rem;
+    font-size: 30px;
     border: 2px solid red;
     margin-top: 50px;
     margin-left: 50vw;
